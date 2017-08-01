@@ -1,0 +1,198 @@
+/* body defines formatting for entire body, such as global text formating */
+body{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-family:  Verdana, sans-serif;
+}
+
+/* links for buttons just appear like normal text */
+a{
+	color: white;
+	text-decoration: none;
+}
+
+h2{
+	text-shadow: 0px 1px 3px black;
+}
+
+.tool{
+	width: 80%;
+	border-radius: 12px;
+	box-shadow: 0px 5px 20px black;
+}
+
+/* table for formating text in parts list */
+.parts{
+	width: 50%;
+	height: auto;
+	position: relative;
+	margin: 10px auto;
+	
+}
+
+table.parts th{
+	text-align: right;
+	padding-right: 10px;
+	width: 50%;
+}
+
+table.parts td{
+	text-align: left;
+	padding-left: 10px;
+	width: 50%;
+}
+
+.program{
+	width: 30%;
+	height: auto;
+	position: relative;
+	margin: 10px auto;
+}
+
+table.program tr{
+	
+}
+
+table.program th{
+	text-align: center;
+	padding: 0px 10px 2px;
+	width: 50%;
+	border-bottom: 1px solid black;
+	border-radius: 4px;
+}
+
+table.program td{
+	text-align: center;
+	padding: 0px 10px 2px;
+	width: 50px;
+	border-bottom: 1px solid black;
+	border-radius: 4px;
+}
+
+/* defines size of table used for buttons.
+	make changes here to resize buttons */
+.list{
+	width: 95%;
+	height: auto;
+	position: relative;
+	margin: 12px auto;
+}
+
+.list img{
+	border-radius: 12px;
+	margin: 0px 12px;
+	width: 100%;
+	height: auto;
+}
+
+.list td {
+	width: 33%;
+}
+
+/* sets color of links in parts section */
+#partlink{
+	color: darkred;
+}
+
+.info{
+	text-align: left;
+	margin: 12px 0;
+	float: right;
+	width: 40%;
+}
+
+.image{
+	height: 50%;
+	width: 50%;
+	border-radius: 12px;
+	margin: 0px 2% 0px 12px;
+	float: left;
+	box-sha/dow: 0px 0px 20px black;
+}
+
+.img{
+	border-radius: 12px;
+	margin-right: 12px;
+	float: right;
+	box-shadow: 0px 5px 20px black;
+}
+
+.mainbox{
+	background-color:#087FC2;
+	border-radius: 12px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	box-shadow: 0px 5px 20px black;
+	background: linear-gradient(#2790CC,#087FC2);
+}
+
+.headerbox{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.logo{
+	width: 150px;
+	height: 100px;
+}
+
+/* formatting for button links */
+.button{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 10px auto;
+	box-shadow: 0px 1px 5px black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 12px;
+	background-color: #2790CC;
+	background: linear-gradient(#2790CC,#087FC2);
+
+}
+
+/* sets color to red when hovered */
+.button:hover{
+	background-color: #E42E2B;
+	background: linear-gradient(#E9737C,#E42E2B);
+}
+
+.button#menu{
+	background-color: #087FC2;
+	background: linear-gradient(#087FC2,#035482);
+}
+
+.button#menu:hover{
+	background-color: #E42E2B;
+	background: linear-gradient(#E42E2B,#9b1d1b);
+}
+
+/* formatting for back button on 
+	specific pages with photos */
+.back{
+	width: 98%;
+	height: auto;
+	margin: 12px;
+	box-shadow: 0px 1px 5px black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 12px;
+	background-color: #087FC2;
+	background: linear-gradient(#087FC2,#035482);
+	left: 0;
+	right: 0;
+	float: left;
+}
+
+.back:hover{
+	background-color: #E42E2B;
+	background: linear-gradient(#E42E2B,#9b1d1b);
+}
