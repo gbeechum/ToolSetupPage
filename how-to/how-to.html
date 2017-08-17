@@ -7,6 +7,12 @@
 		<title>How-To</title>
 
 		<link rel='stylesheet' type='text/css' href='../stylesheet.css'/>
+		
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>
 
 	</head>
 
@@ -26,7 +32,7 @@
 			<table class='list'>
 			<tr>
 			<td colspan='2'>
-				<a href="../MainMenu.html"><div class='button' id='menu'>Main Menu</div></a>
+				<div id='menu' class='button' onclick='goBack()'>Main Menu</div>
 			</td>
 			</tr>
 			<tr>
@@ -51,7 +57,7 @@
 			</tr>
 			<tr>
 			<td colspan='2'>
-				<a href="../MainMenu.html"><div class='button' id='menu'>Main Menu</div></a>
+				<div id='menu' class='button' onclick='goBack()'>Main Menu</div>
 			</td>
 			</tr>
 			</table>
