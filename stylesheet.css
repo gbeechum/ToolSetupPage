@@ -103,19 +103,18 @@ table.program td{
 }
 
 .image{
-	height: 50%;
-	width: 50%;
+	max-width: 50%;
 	border-radius: 12px;
 	margin: 0px 2% 0px 12px;
 	float: left;
-	box-sha/dow: 0px 0px 20px black;
+	box-shadow: 0px 1px 5px black;
 }
 
 .img{
 	border-radius: 12px;
 	margin-right: 12px;
 	float: right;
-	box-shadow: 0px 5px 20px black;
+	box-shadow: 0px 1px 5px black;
 }
 
 .mainbox{
